@@ -32,9 +32,6 @@ Pod::Spec.new do |s|
 
   # s.source_files = 'DBFlowTTS.framework/Classes/**/*'
   s.vendored_frameworks = 'DBFlowTTSLibTest/Classes/*.framework'
-  s.subspec 'DBCommon' do |ss|
-  	s.vendored_frameworks = 'Framework/*.framework'
-  end
   # s.resource_bundles = {
   #   'DBFlowTTSLibTest' => ['DBFlowTTSLibTest/Assets/*.png']
   # }
