@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DBFlowTTSLibTest"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "语音合成SDK"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/lmhname123/DBFlowTTSLibTest.git", :tag => "0.0.2" }
+  spec.source       = { :git => "https://github.com/lmhname123/DBFlowTTSLibTest.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,9 +91,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "DBFlowTTS.framework/**/*.{h,m}"
+  spec.source_files  = "DBFlowTTS.framework/*/*"
   spec.exclude_files = "Classes/Exclude"
-
+  # spec.vendored_frameworks = "DBFlowTTS.framework"
   # spec.public_header_files = "Classes/**/*.h"
 
 
@@ -133,6 +133,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
-spec.vendored_frameworks = "DBFlowTTS.framework"
+  # spec.dependency "JSONKit", "~> 1.4" 
 end
