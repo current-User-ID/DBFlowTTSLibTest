@@ -1,0 +1,22 @@
+{
+  "name": "DBFlowTTSLibTest",
+  "version": "0.1.0",
+  "summary": "A short description of DBFlowTTSLibTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/李明辉/DBFlowTTSLibTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "李明辉": "liminghui@data-baker.com"
+  },
+  "source": {
+    "git": "https://github.com/李明辉/DBFlowTTSLibTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DBFlowTTSLibTest/Classes/**/*"
+}

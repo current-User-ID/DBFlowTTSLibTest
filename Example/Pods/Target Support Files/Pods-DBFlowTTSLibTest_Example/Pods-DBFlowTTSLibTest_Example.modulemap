@@ -1,0 +1,6 @@
+framework module Pods_DBFlowTTSLibTest_Example {
+  umbrella header "Pods-DBFlowTTSLibTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module DBFlowTTSLibTest {
+  umbrella header "DBFlowTTSLibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
