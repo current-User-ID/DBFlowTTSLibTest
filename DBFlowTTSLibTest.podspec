@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  # s.source_files = 'DBFlowTTSLibTest/Classes/**/*'
+  # s.source_files = 'DBFlowTTS.framework/Classes/**/*'
   s.vendored_frameworks = 'DBFlowTTSLibTest/Classes/*.framework'
   # s.resource_bundles = {
   #   'DBFlowTTSLibTest' => ['DBFlowTTSLibTest/Assets/*.png']

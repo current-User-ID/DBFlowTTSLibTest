@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1A13F7C341ACE15DA62D263EC9DA0516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		59A4427B5C9A17C3A2824B20235229C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5E225297C5D972EE8BC68EAFDF2B7757 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1837EC179E60141356BEE1A5C9A1E7 /* ReplaceMe.m */; };
 		73A656B1943F238A0AD64F4BB083C076 /* Pods-DBFlowTTSLibTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9F5CBA3DAA11DE821551EF69552CE4 /* Pods-DBFlowTTSLibTest_Tests-dummy.m */; };
 		74CBD641C3897537E62B9FA858F7ECCB /* DBFlowTTSLibTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9AB11257BD442FAF18F7BCA5AB9E69 /* DBFlowTTSLibTest-dummy.m */; };
 		7AF387E5489C4123AFA188251264B3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -47,7 +46,6 @@
 		57F0FE4BA6F27694C18DC0192A560B9C /* Pods-DBFlowTTSLibTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBFlowTTSLibTest_Example-dummy.m"; sourceTree = "<group>"; };
 		5BF877670E185EBC3CDDAFE2C8052E59 /* Pods-DBFlowTTSLibTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBFlowTTSLibTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E57BF471014E7387346C22E98575D39 /* DBFlowTTSLibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBFlowTTSLibTest-umbrella.h"; sourceTree = "<group>"; };
-		6A1837EC179E60141356BEE1A5C9A1E7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DBFlowTTSLibTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6D64039CCEB084E9B3C3BC3B68EC60D0 /* Pods-DBFlowTTSLibTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBFlowTTSLibTest_Tests.modulemap"; sourceTree = "<group>"; };
 		76DD4C264F60C9162231E54668812708 /* Pods-DBFlowTTSLibTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBFlowTTSLibTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		799D02CB837BFA30CC608F8582DF16D5 /* DBFlowTTSLibTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBFlowTTSLibTest.xcconfig; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 		A2FD4B48504266109679CFBEC5F102FE /* DBFlowTTSLibTest */ = {
 			isa = PBXGroup;
 			children = (
-				6A1837EC179E60141356BEE1A5C9A1E7 /* ReplaceMe.m */,
 				1F4F502FF1786CAF048740FD2A007D05 /* Pod */,
 				940E822E512C32370BC1277D846F1034 /* Support Files */,
 			);
@@ -374,7 +371,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				74CBD641C3897537E62B9FA858F7ECCB /* DBFlowTTSLibTest-dummy.m in Sources */,
-				5E225297C5D972EE8BC68EAFDF2B7757 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
