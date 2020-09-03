@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DBFlowTTSLibTest'
-  s.version          = '0.0.1'
+  s.version          = '0.0.5'
   s.summary          = '流式语音合成SDK'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,14 @@ Pod::Spec.new do |s|
 
   # s.source_files = 'DBFlowTTS.framework/Classes/**/*'
   s.vendored_frameworks = 'DBFlowTTSLibTest/Classes/*.framework'
+  s.subspec 'DBCommon' do |ss|
+  	s.vendored_frameworks = 'Framework/*.framework'
+  end
   # s.resource_bundles = {
   #   'DBFlowTTSLibTest' => ['DBFlowTTSLibTest/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.frameworks = 'Foundation'
+  s.dependency 'DBCommonLibTest'
 end
