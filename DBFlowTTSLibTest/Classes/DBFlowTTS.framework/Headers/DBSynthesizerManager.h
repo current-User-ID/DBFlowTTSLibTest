@@ -28,10 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,copy)NSString * ttsSdkVersion;
 
-
+/// 指定初始化方法，每次调用该方法会生成一个新的合成对象,不是单例
 + (DBSynthesizerManager *)instance;
 
-
+/// 鉴权方法
 - (void)setupClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret handler:(DBMessageHandler)handler;
 
 // 近针对私有化授权的服务使用，调用此方法后无需设置clientIf和clientSecret

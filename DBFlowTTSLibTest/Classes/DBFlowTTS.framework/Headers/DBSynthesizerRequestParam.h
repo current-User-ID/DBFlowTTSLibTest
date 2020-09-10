@@ -55,10 +55,6 @@ typedef NS_ENUM(NSUInteger,DBlanguageType) {
 @property(nonatomic,assign)DBParamAudioType audioType;
 
 
-///// 私有化部署的服务器url地址。
-//@property(nonatomic,copy)NSString * url;
-
-
 @end
 
 NS_ASSUME_NONNULL_END

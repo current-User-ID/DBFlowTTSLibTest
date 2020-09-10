@@ -20,7 +20,7 @@ typedef NS_ENUM(NSUInteger,DBErrorFailedCode) {
     DBErrorFailedCodeParameters  = 2000004, // 参数未设置
     DBErrorFailedCodeText        = 2000005, // 合成文本内容为空
     DBErrorFailedCodeVoiveName   = 2000006, // 发音人参数错误
-    DBErrorFailedCodeResultParse = 2000007, // 返回结果解析错误
+    DBErrorFailedCodeResultParse = 2000007, // 解析错误
     DBErrorFailedCodeSynthesis   = 2000008, // 链接服务器失败
     //**********服务端返回的错误*********//
     DBErrorFailedCodeAccessToken = 10001, // access_token参数获取失败或未传输
